@@ -1,4 +1,4 @@
-const divide = require('../index');
+const divide = require('../Part1/index2');
 const { expect } = require('chai');
 
 describe('Divide function', () => {
@@ -11,9 +11,10 @@ describe('Divide function', () => {
   });
 
   it('should throw an error when divide by zero', () => {
-    const a = 8, b = 0;
+    const a = 8,
+      b = 0;
     const fn = () => {
-      divide(a,b)
+      divide(a, b);
     };
     expect(fn).to.throw();
   });

@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const isEven = require('../isEven');
+const isEven = require('../Part1/isEven');
 
 describe('isEven', () => {
   it('should find 4 to be even', () => {
