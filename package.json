@@ -21,7 +21,7 @@
   "homepage": "https://github.com/thinkful-ei-heron/evan-julio-integration-testing#readme",
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.2.2",
+    "mocha": "^10.2.0",
     "nodemon": "^1.19.4",
     "supertest": "^4.0.2"
   },
